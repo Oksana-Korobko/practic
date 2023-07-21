@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #1fc07f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-style: 16px;
+}
+h2{
+    font-style: 30px;
+    margin-bottom: 20px;
+
+}
+
+.content {
+    max-width: 500px;
+    padding: 30px;
+    margin: 0 auto;
+}
+/* .content_2D {
+} */
+.content_block {
+    margin-bottom: 50px;
+}
+.content_2D .content_block div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 200px;
+    height: 200px;
+    transition: all 0.7s ease 0s;
+
+}
+.content_translate {
+    background-color: #d4aff5;
+}
+.content_translate:hover{
+    transform: translate(50px, 50px);  
+}
+.content_scale {
+    background-color: #d4aff5;
+    transform: scale(1,1);
+}
+.content_scale:hover{
+    transform: scale(2,1);  
+}
+
+.content_rotate {
+    background-color: #d4aff5;
+    transform: rotate(0deg);
+}
+.content_rotate:hover{
+    transform: rotate(90deg);  
+}
+.content_skew {
+    background-color: #d4aff5;
+    transform: skew(0deg, 0deg);
+}
+.content_skew:hover{
+    transform: skew(10deg, 20deg);  
+}
+
+.content_matrix {
+    background-color: #d4aff5;
+    transform: matrix(0deg, 0deg);
+}
+.content_skew:matrix{
+    transform: matrix(10deg, 20deg);  
+}
+
+
+.content_skew {
+    background-color: #d4aff5;
+    transform: skew(0deg, 0deg);
+}
+.content_skew:hover{
+    transform: skew(10deg, 20deg);  
+}
+.content_transform-origin {
+    background-color: #d4aff5;
+    transform-origin: 0 0;
+    transform: rotate(0deg);
+}
+.content_transform-origin:hover{
+    transform: rotate(-30deg);  
+}
+
+
+
+
+
+
+
+/* .content_3D {
+} */
