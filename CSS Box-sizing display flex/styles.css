@@ -1,0 +1,14 @@
+html {
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    block-size: inherit;
+}
+.wrapper {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+.box {
+    border:  1px solid black;
+}
